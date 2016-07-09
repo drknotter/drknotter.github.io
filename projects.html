@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+
+<head>
+<link rel="stylesheet" type="text/css" href="styles/main.css" />
+<script type="text/javascript" src="scripts/jquery-2.0.3.min.js"></script>
+<script type="text/javascript" src="scripts/main.js"></script>
+<link rel="stylesheet" type="text/css" href="styles/projects.css" />
+<script type="text/javascript" src="scripts/projects.js"></script>
+
+<title>Pat Plunkett - Projects</title>
+</head>
+
+<body>
+  
+  <div id="header">
+    <div>Projects</div>
+  </div>
+
+  <div id="navigation">
+    <img id="mug" alt="My Picture" src="images/mug.jpg" />
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="projects.html">Projects</a>
+  </div>
+  
+  <div id="content">
+    
+    <table>
+      <tr>
+
+        <td><img class="table_thumb" src='images/photon_thumb.png' /><div><img class="info_thumb" src='images/photon_thumb.png' /><img class="close" src='images/close.png' /><a class="title" href='http://drknotter.github.io/photon'>Photon</a> Photon is an optics-based puzzle game I've been developing using JavaScript and <a href="http://raphaeljs.com/">Raphaël</a>. The graphics are handled entirely using <a href="http://www.w3.org/TR/SVG11/">SVG</a>, which provides crisp and clean visualizations at any resolution. The goal of each level is to arrange the mirrors, filters, and prisms provided to guide the correct colored beams of light to the corresponding colored goals. Currently the game runs entirely on the client machine, but I plan to add persistence across browser sessions and users in the future.</div></td>
+
+        <td><img class="table_thumb" src='images/mario_kart_frolf_thumb.png' /><div><img class="info_thumb" src='images/mario_kart_frolf_thumb.png' /><img class="close" src='images/close.png' /><a class="title" href='http://drknotter.github.io/mario-kart-frolf'>Mario Kart Frolf</a> A group of friends and I like to play this game called <a href="http://en.wikipedia.org/wiki/Disc_golf">frisbee golf</a>. We've been playing every Saturday morning for about 5 years now (some of us for even longer). We're also avid videogamers, and most of us can remember spending a lot of our childhoods playing a particular videogame: Mario Kart. Then we got to thinking out loud how funny it would be to add Mario Kart power-ups to our frolf games. Bananas making players throw with their opposite hand. Lightning making everyone throw while standing on one leg. Then we said, "hey, we should actually DO this!" So, I took it upon myself to waste some more time on Mario Kart, and wrote a small app that took care of player scores and assigning power-ups.</div></td>
+
+        <td><img class="table_thumb" src='images/elemental_sound_thumb.png' /><div><img class="info_thumb" src='images/elemental_sound_thumb.png' /><img class="close" src='images/close.png' /><a class="title" href='http://drknotter.github.io/elemental-sound'>Elemental Sound</a> Ever wondered what argon sounds like? How about rubidium or ionized uranium? After watching Minute Physic's <a href="http://www.youtube.com/watch?v=qyi5SvPlMXc">The Sound of Hydrogen</a> video and the accompanying <a href="http://www.youtube.com/watch?v=IhvW8yZdE5A">tutorial</a>, I decided to replicate their results, but also fill in the rest of the periodic table. I wrote a Python script to scrape the data from the NIST website, wrote a MatLab script to generate the sounds from that, and then encapsulated it all into what you see here.</div></td>
+
+        <td><img class="table_thumb" src='images/character_manager_thumb.png' /><div><img class="info_thumb" src='images/character_manager_thumb.png' /><img class="close" src='images/close.png' /><a class="title" href='http://drknotter.github.io/character-manager'>D&amp;D Character Manager</a> I wrote this app when I was frequently playing D&D (4th edition) and shuffling around pages and pages of powers, abilities, skills, etc. for my character. I actually coded this as a Chrome extension, which you can obtain from GitHub <a href="https://github.com/drknotter/character-manager">here</a>. The app reads .dnd4e files (generated from the online WOTC character generator) from the local data/ directory, and displays the information in collapsible, tidy boxes, along with functionality for keeping track of current HP, number of healing surges, status effects, etc. Coded entirely in HTML, CSS, and JavaScript using the <a href="http://d3js.org/">d3</a> library.</div></td>
+
+      </tr>
+      <tr>
+
+        <td><img class="table_thumb" src='images/harmonic_oscillator_thumb.png' /><div><img class="info_thumb" src='images/harmonic_oscillator_thumb.png' /><img class="close" src='images/close.png' /><a class="title" href='http://drknotter.github.io/harmonic-oscillator'>Harmonic Oscillator</a> I created this small demonstration of a mass-spring system the first time I taught introduction to differential equations. I wanted to to demonstrate how the motion of a mass-spring system is affected by its three main parameters: the mass, the spring constant, and the damping coefficient. You can change these parameters in the text boxes, and click-drag the mass to observe the effects. The blue line represents the position of the mass, and the green line represents its velocity. Written using JavaScript and the HTML5 canvas element.</div></td>
+
+        <td><img class="table_thumb" src='images/harmonic_oscillator_2_thumb.png' /><div><img class="info_thumb" src='images/harmonic_oscillator_2_thumb.png' /><img class="close" src='images/close.png' /><a class="title" href='http://drknotter.github.io/harmonic-oscillator-2'>Harmonic Oscillator 2</a> This is an updated demonstration of mass-spring systems, based on my first attempt. This demo allows for multiple systems so you can directly compare the similarities and differences in the the resulting motion of the masses. The left graph has a plot of the mass' position over time, and the right graph is a plot of the motion in <a href="http://en.wikipedia.org/wiki/Phase_space">phase space</a> (position in the x-direction, velocity in the y-direction). Parameter values are taken from HTML5 slider inputs, which automatically update both the differential equation and the plots. You can also watch an animation of the motion of mass. Coded entirely in HTML, CSS, and JavaScript using the <a href="http://d3js.org/">d3</a> library.</div></td>
+
+        <td><img class="table_thumb" src='images/sine_curves_thumb.png' /><div><img class="info_thumb" src='images/sine_curves_thumb.png' /><img class="close" src='images/close.png' /><a class="title" href='http://drknotter.github.io/sine-curves'>Sine Curves</a> This is a small demonstration I made for an introductory calculus course to aid in understanding the effect of amplitude, period, and phase shift of a sine curve. It allows for comparing multiple curves on the same graph. The parameters can be changed using the HTML5 sliders below the graph. Coded using JavaScript and the <a href="http://d3js.org/">d3</a> library.</div></td>
+
+        <td><img class="table_thumb" src='images/ball_demo_thumb.png' /><div><img class="info_thumb" src='images/ball_demo_thumb.png' /><img class="close" src='images/close.png' /><a class="title" href='http://drknotter.github.io/squishy-ball-demo'>Squishy Ball Demo</a> This is a demonstation of spring-based balls interacting in a box. I created this more as an exercise to familiarize myself with HTML5 canvas. Parameters of the system are controlled by clicking the "+" and "-" in the control box on the upper left. The "spring" and "friction" parameters control the spring constants and damping coefficients of the spring system that is created each time two balls contact. You can move a given ball by click-dragging on it. The sliders at the bottom were my initial attempts to create my own slider controls using HTML5 canvas.</div></td>
+
+      </tr>
+      <tr>
+
+        <td><img class="table_thumb" src='images/spring_play_thumb.png' /><div><img class="info_thumb" src='images/spring_play_thumb.png' /><img class="close" src='images/close.png' /><a class="title" href='http://drknotter.github.io/spring-play'>Spring Play</a> Create systems of springs by clicking two balls and pressing "s" to create a spring between them. You can also change the look of the springs by pressing "e", change their length by pressing the up and down keys, and also turn off gravity by pressing "g". Created entirely with HTML5 canvas and JavaScript.</div></td>
+
+        <td><img class="table_thumb" src='images/magic_card_database_thumb.png' /><div><img class="info_thumb" src='images/magic_card_database_thumb.png' /><img class="close" src='images/close.png' /><a class="title" href='http://drknotter.github.io/magic-card-database'>Magic Card Database</a> This is database-driven collection organizer and card searcher for the CCG Magic: The Gathering. I used to play pretty avidly, and when I couldn't find any decent free collection organizers, I decided to pick up Python and attempt to create my own. The application makes use of <a href="http://www.wxpython.org/">wxPython</a> for the GUI, and the sqlite library that comes with every installation of Python. I made searching a strong feature of the code, as I wanted to be able to construct decks from the entire Magic library. To import all of the information for all cards, I wrote a Python script to scrape the WOTC website, which made use of the <a href="http://www.crummy.com/software/BeautifulSoup/">BeautifulSoup</a> library for parsing the HTML information. This is still a work in progress, so I have yet to release it into the wild.</div></td>
+
+        <td><img class="table_thumb" src='images/circular_slide_rule_thumb.png' /><div><img class="info_thumb" src='images/circular_slide_rule_thumb.png' /><img class="close" src='images/close.png' /><a class="title" href='http://drknotter.github.io/circular-slide-rule'>Circular Slide Rule</a> A demo of a working circular slide rule. Try dragging the pointer and the inner stator. This project eventually led to a <a href="http://www.instructables.com/id/Circular-Slide-Rule/">real life object</a>. Coded entirely in HTML5 canvas and JavaScript.</div></td>
+
+        <td><img class="table_thumb" src='images/bubble_spinner_thumb.png' /><div><img class="info_thumb" src='images/bubble_spinner_thumb.png' /><img class="close" src='images/close.png' /><a class="title" href='http://drknotter.github.io/bubble-spinner'>Bubble Spinner</a> This was my initial attempt at making a replica of <a href="http://www.deadwhale.com/play.php?game=774">Bubble Spinner</a>. This was one of my first forays into using HTML5 canvas, so I never got around to finishing it before moving on to other projects.</div></td>
+
+      </tr>
+      <tr>
+        
+        <td><img class="table_thumb" src='images/ball_game_thumb.png' /><div><img class="info_thumb" src='images/ball_game_thumb.png' /><img class="close" src='images/close.png' /><a class="title" href='http://drknotter.github.io/ball-game'>Ball Game</a> This is a small game that I developed. The object of the game is to maneuver the white ball (using the wasd keys) into the other balls so they land into their appropriately colored wells. Once a ball is in the correct well, a timer counts up... forever. That's as far as I got.</div></td>
+
+        <td><img class="table_thumb" src='images/goldberg_thumb.png' /><div><img class="info_thumb" src='images/goldberg_thumb.png' /><img class="close" src='images/close.png' /><a class="title" href='http://drknotter.github.io/goldberg-variations'>Goldberg Variations</a> Back when I had a Mac, I liked to occasionally noodle around in GarageBand. One day I decided to transpose all of the <a href="http://en.wikipedia.org/wiki/Goldberg_Variations">Goldberg variations</a> from a copy of the sheet music that I found.</div></td>
+
+      </tr>
+
+    </table>
+
+    
+  </div>
+
+<div id="footer">
+  <div id="quote"><script type="text/javascript" src="scripts/quote.js"></script></div>
+  <span id="valid">
+    <a href="http://validator.w3.org/check?uri=referer">
+    <a href="http://jigsaw.w3.org/css-validator/">
+  </span>
+  <div id="modified">
+    <img src="images/valid-xhtml10.png" alt="Valid XHTML 1.0 Strict" /></a>
+    <img src="images/valid-css.png" alt="Valid CSS" /></a>
+    Last modified on Wednesday, January 08, 2014 at 10:29 PM
+  </div>
+</div>
+  
+</body>
+
+</html>

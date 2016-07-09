@@ -1,0 +1,27 @@
+b {
+    font: bold 15px georgia, sans-serif;
+}
+
+#education {
+    text-indent: 0px;
+}
+
+#education li {
+    list-style: square none outside;
+}
+
+.research {
+    border-left: 3px solid #bbbbbb;
+    padding: 0px 0px 0px 5px;
+    margin: 15px 0px 15px 0px;
+    text-indent: 0px;
+}
+
+#talks {
+    text-indent: 0px;
+}
+
+#talks li {
+    list-style: disc none outside;
+    margin: 10px 0px 10px 0px;
+}

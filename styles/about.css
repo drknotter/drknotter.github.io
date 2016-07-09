@@ -1,0 +1,49 @@
+#content .sectionTitle {
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
+    padding: 10px 0px;
+    margin: 15px;
+    text-align: center;
+    background: rgba(0,0,0,0.3);
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#content > div {
+    height: 72px;
+    overflow: hidden;
+}
+
+#content .publication {
+    margin-bottom: 25px;
+}
+
+#CV b {
+    font: bold 15px georgia, sans-serif;
+}
+
+#CV #education {
+    text-indent: 0px;
+}
+
+#CV #education li {
+    list-style: square none outside;
+}
+
+#CV .research {
+    border-left: 3px solid #bbbbbb;
+    padding: 0px 0px 0px 5px;
+    margin: 15px 0px 15px 0px;
+    text-indent: 0px;
+}
+
+#CV #talks {
+    text-indent: 0px;
+}
+
+#CV #talks li {
+    list-style: disc none outside;
+    margin: 10px 0px 10px 0px;
+}

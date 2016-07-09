@@ -1,0 +1,64 @@
+table {
+    overflow: hidden;
+    border: 0px;
+    border-spacing: 0px;
+}
+td { 
+    padding: 2%;
+    border-spacing: 0px;
+}
+td .table_thumb {
+    width: 100%;
+    border-radius: 15%;
+    cursor: pointer;
+}
+
+td div {
+    display: none;
+    position: fixed;
+    left: 50px;
+    right: 50px;
+    top: 50px;
+    bottom: 50px;
+    padding: 25px;
+    border-radius: 20px;
+    background-color: rgba(225,225,225,0.95);
+    z-index: 11;
+    overflow: auto;
+}
+
+td div .info_thumb {
+    width: 150px;
+    border-radius: 10px;
+    float: left;
+    margin: 0px 25px 25px 0px;
+}
+
+td div .close {
+    width: 30px;
+    background-color: white;
+    float: right;
+    padding: 5px;
+    margin: 0px 0px 20px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+td div .title {
+    display: block;
+    height: 30px;
+    font-size: 20px;
+    padding-top: 10px;
+    margin: 0px 60px 20px 175px;
+    text-align: center;
+    background-color: #ccc;
+    border-radius: 20px;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: none;
+    color: white;
+}
+
+td div .title:hover {
+    background-color: #cce;
+}

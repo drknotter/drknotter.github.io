@@ -1,0 +1,11 @@
+#content .publication {
+    position: relative;
+    width: 90%;
+    margin: 15px 0px 0px 5%;
+    text-indent: 0px;
+}
+
+.publication b {
+    font-weight: bold;
+    font-size: 17px;
+}

@@ -1,0 +1,84 @@
+#content {
+    text-align: center;
+    overflow: hidden;
+}
+#imageArea {
+    height: 400px;
+}
+#description {
+    width: 100%;
+    height: 15px;
+    text-align: center;
+    font: normal bold 12px georgia;
+}
+#currImage {
+
+}
+#topImg {
+    position: absolute;
+    top: 18px;
+    left: 0px;
+    z-index: 1;
+    filter: alpha(opacity:0);
+    KHTMLOpacity: 0;
+    MozOpacity: 0;
+    opacity: 0;
+}
+#bottomImg {
+    position: absolute;
+    top: 18px;
+    left: 0px;
+    z-index: -1;
+}
+#leftArrow {
+    position: absolute;
+    top: 18px;
+    left: 0px;
+    width: 30%;
+    height: 400px;
+    z-index: 2;
+    background: url("../images/left.png") no-repeat center left;
+    filter: alpha(opacity:0);
+    KHTMLOpacity: 0;
+    MozOpacity: 0;
+    opacity: 0;
+}
+#rightArrow {
+    position: absolute;
+    top: 18px;
+    right: 0px;
+    width: 30%;
+    height: 400px;
+    z-index: 2;
+    background: url("../images/right.png") no-repeat center right;
+    filter: alpha(opacity:0);
+    KHTMLOpacity: 0;
+    MozOpacity: 0;
+    opacity: 0;
+}
+#enlarge {
+    position: absolute;
+    top: 350px;
+    right: 50%;
+    left: 30%;
+    height: 75px;
+    z-index:2;
+    background: url("../images/enlarge.png") no-repeat center top;
+    filter: alpha(opacity:0);
+    KHTMLOpacity: 0;
+    MozOpacity: 0;
+    opacity: 0;
+}
+#playPause {
+    position: absolute;
+    top: 350px;
+    right: 30%;
+    left: 50%;
+    height: 75px;
+    z-index:2;
+    background: url("../images/play.png") no-repeat center top;
+    filter: alpha(opacity:0);
+    KHTMLOpacity: 0;
+    MozOpacity: 0;
+    opacity: 0;
+}

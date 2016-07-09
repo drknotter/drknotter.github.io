@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+
+<head>
+<link rel="stylesheet" type="text/css" href="styles/main.css" />
+<script type="text/javascript" src="scripts/jquery-2.0.3.min.js"></script>
+<script type="text/javascript" src="scripts/main.js"></script>
+<link rel="stylesheet" type="text/css" href="styles/pictures.css" />
+<script type="text/javascript" src="scripts/pictureShow.js"></script>
+
+<title>Pat Plunkett - Pictures</title>
+</head>
+
+<body>
+  
+  <div id="header">
+    <div>Pictures</div>
+  </div>
+
+  <div id="navigation">
+    <img id="mug" alt="My Picture" src="images/mug.jpg" />
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="projects.html">Projects</a>
+  </div>
+  
+  <div id="content">
+    
+<div id="imageArea">
+  <textarea id="description">UCSB Lagoon - Santa Barbara</textarea>
+  <img id="topImg" src="pictures/misc4_small.jpg" alt="" />
+  <img id="currImg" src="pictures/sb1_small.jpg" alt="" />
+  <img id="bottomImg" src="pictures/sb2_small.jpg" alt="" />
+  <div id="leftArrow" onMouseOver="fadeIn('leftArrow',0,25)" onMouseOut="fadeOut('leftArrow',100,25)" onClick="prevImage()"></div>
+  <div id="rightArrow" onMouseOver="fadeIn('rightArrow',0,25)" onMouseOut="fadeOut('rightArrow',100,25)" onClick="nextImage()"></div>
+  <div id="enlarge" onMouseOver="fadeIn('enlarge',0,25)" onMouseOut="fadeOut('enlarge',100,25)" onClick="enlarge()"></div>
+  <div id="playPause" onMouseOver="fadeIn('playPause',0,25)" onMouseOut="fadeOut('playPause',100,25)" onClick="playPause()"></div>
+</div>
+<br />
+Mouse over image to navigate.
+
+    
+  </div>
+
+<div id="footer">
+  <div id="quote"><script type="text/javascript" src="scripts/quote.js"></script></div>
+  <span id="valid">
+    <a href="http://validator.w3.org/check?uri=referer">
+    <a href="http://jigsaw.w3.org/css-validator/">
+  </span>
+  <div id="modified">
+    <img src="images/valid-xhtml10.png" alt="Valid XHTML 1.0 Strict" /></a>
+    <img src="images/valid-css.png" alt="Valid CSS" /></a>
+    Last modified on Wednesday, January 08, 2014 at 10:29 PM
+  </div>
+</div>
+  
+</body>
+
+</html>

@@ -1,0 +1,11 @@
+#content {
+    text-align: center;
+}
+
+#content h2 {
+    font: italic bold 23px palatino, times, serif;
+}
+
+.contact {
+    margin-bottom: 15px;
+}

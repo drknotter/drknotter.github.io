@@ -1,0 +1,21 @@
+#content {
+    text-align: center;
+}
+
+#content h1 {
+    font: italic bold 27px palatino, times, serif;
+    margin-bottom: 15px;
+}
+
+iframe {
+    margin-bottom: 15px;
+}
+
+.notable {
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+.notable:first-line {
+    font-size: 20px;
+}
